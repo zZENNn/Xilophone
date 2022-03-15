@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ксилофон</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+  <script type="module" src='js/main.mjs'></script>
+</head>
+<body>
+  <h1>Ксилофон</h1>
+  <p>Это ксилофон. Чтобы играть наводите мышкой на пластинки или используйте клавиши "C","D","E","F","G","A","B".</p>
+  <p>Вы можете отключать и включать бруски, кликая по ним мышкой</p>
+  <p>Если вы не слышите звук, нажмите курсором на любое место страницы</p>
+  <div id="xylophone">
+    <div data-note="C" class="bar" id = "bar" style="background-color: red;">C</div>
+    <div data-note="D" class="bar" id = "bar" style="background-color: yellow;">D</div>
+    <div data-note="E" class="bar" id = "bar" style="background-color: salmon;">E</div>
+    <div data-note="F" class="bar" id = "bar" style="background-color: orange;">F</div>
+    <div data-note="G" class="bar" id = "bar" style="background-color: greenyellow;">G</div>
+    <div data-note="A" class="bar" id = "bar" style="background-color: aqua;">A</div>
+    <div data-note="B" class="bar" id = "bar" style="background-color: blueviolet;">B</div>
+
+    <audio src="sounds/C.mp3" id = "C" ></audio>
+    <audio src="sounds/D.mp3" id = "D" ></audio>
+    <audio src="sounds/E.mp3" id = "E" ></audio>
+    <audio src="sounds/F.mp3" id = "F" ></audio>
+    <audio src="sounds/G.mp3" id = "G" ></audio>
+    <audio src="sounds/A.mp3" id = "A" ></audio>
+    <audio src="sounds/B.mp3" id = "B" ></audio>
+  </div>
+  
+</body>
+</html>
